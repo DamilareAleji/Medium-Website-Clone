@@ -1,0 +1,100 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 57px;
+    padding: 0 24px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 1px #f3f0f0;
+}
+
+.left-section {
+    width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.medium-logo {
+    width: 112px;
+    cursor: pointer;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 17px;
+}
+
+.input-bar {
+    border: none;
+    background-color: #f9f9f9;
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    text-indent: 40px;
+    font-size: 14px;
+}
+
+.input-bar:focus {
+    outline: none;
+}
+
+.fa-search {
+    position: absolute;
+    left: 14px;
+    color: rgba(128, 128, 128, 0.788);
+}
+
+.right-section {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.new-post {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: gray;
+    transition: color 0.15s;
+}
+
+.new-post:hover {
+    color: #000000;
+}
+
+.fa-pen-to-square {
+    font-size: 20px;
+    /* color: gray; */
+}
+
+
+.write-new-post {
+    /* color: gray; */
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.fa-bell {
+    margin: auto 40px;
+    font-size: 20px;
+    color: gray;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.fa-bell:hover {
+    color: #000000;
+}
+
+.profile-picture {
+    width: 32px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+.profile-picture:hover {
+    box-shadow: inset 0 0 10px #00000080;
+}
