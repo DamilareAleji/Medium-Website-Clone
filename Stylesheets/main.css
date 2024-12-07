@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    width: 1336px;
+    /* background-color: gray; */
+    /* height: 1000px; */
+    padding: 0 24px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.main-page {
+    width: 728px;
+    border: solid;
+    height: 1000px;
+}
+
+.side-bar {
+    width: 370px;
+    border-left: solid 1px #f3f0f0;
+    /* height: 1000px; */
+    padding: 0 24px 0 40px;
+}
+
