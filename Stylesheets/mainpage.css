@@ -1,0 +1,55 @@
+.scrollable-header {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
+    max-width: 100%; /* Full width */
+    padding: 10px 0;
+    margin-top: 30px;
+  }
+  
+  /* Arrow button styles */
+  .arrow {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: gray;
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow:hover {
+    color: black;
+  }
+  
+  /* Scrollable container */
+  .scroll-container {
+    display: flex;
+    overflow-x: auto; /* Horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling when arrows are clicked */
+    gap: 20px; /* Space between links */
+    padding: 0 10px;
+    flex-grow: 1; /* Fill remaining space */
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); /* Fading effect */
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); /* For Safari */
+  }
+  
+  /* Links styles */
+  .header-link {
+    text-decoration: none;
+    color: black;
+    white-space: nowrap; /* Prevent line wrapping */
+    font-size: 16px;
+  }
+  
+  .header-link:hover {
+    text-decoration: underline;
+    color: #333;
+  }
+  

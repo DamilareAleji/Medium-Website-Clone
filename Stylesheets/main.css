@@ -1,21 +1,22 @@
 main {
     display: flex;
-    width: 1336px;
+    width: 100%;
+    max-width: 1336px;
     /* background-color: gray; */
     /* height: 1000px; */
     padding: 0 24px;
-    gap: 100px;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .main-page {
-    width: 728px;
-    border: solid;
+    width: 100%;
+    max-width: 728px;
     height: 1000px;
 }
 
 .side-bar {
-    width: 370px;
+    width: 100%;
+    max-width: 344px;
     border-left: solid 1px #f3f0f0;
     /* height: 1000px; */
     padding: 0 24px 0 40px;
