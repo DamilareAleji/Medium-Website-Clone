@@ -22,3 +22,9 @@ main {
     padding: 0 24px 0 40px;
 }
 
+@media (max-width: 903px) {
+    .side-bar {
+        display: none;
+    }
+}
+
